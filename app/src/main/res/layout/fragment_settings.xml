@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.FragmentSettings">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/averia_gruesa_libre"
+        android:gravity="center"
+        android:text="About the Developer"
+        android:textColor="#20EC20"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/annimation"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="20dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/developer" />
+    <TextView
+        android:id="@+id/namme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/averia_gruesa_libre"
+        android:gravity="center"
+        android:text="Muffakir Ibn Hamid"
+        android:layout_below="@id/annimation"
+        android:textColor="#20EC20"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/averia_gruesa_libre"
+        android:gravity="center"
+        android:text="@string/about"
+        android:padding="10dp"
+        android:textColor="#3C3C3C"
+        android:textSize="18sp"
+        android:layout_below="@id/annimation"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/git"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Github"
+        android:gravity="center"
+        android:textColor="#0004FF"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:layout_below="@id/about"
+        android:fontFamily="@font/averia_gruesa_libre"/>
+
+
+
+
+
+</RelativeLayout>

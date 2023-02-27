@@ -10,7 +10,7 @@ Made This App using  Android and Kotlin <br>Used Retrofit Glide and other Librar
     <li><b>Lottie Annimations</b></li>
 </ul>
 
-<p><a href"https://unsplash.com/developers">API used</a></p>
+<a href"https://unsplash.com/developers">API used</a>
 
 
 <h2>Some ScreenShots</h2>
